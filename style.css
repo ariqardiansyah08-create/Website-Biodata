@@ -65,9 +65,7 @@ body{
 /* Nama Animasi */
 
 .animate-text{
-
     animation:glow 2s infinite alternate;
-
     margin-bottom:10px;
 }
 
@@ -105,4 +103,37 @@ hr{
 p{
     margin:8px 0;
     line-height:1.5;
+}
+
+/* Tombol Media Sosial */
+
+.social-links{
+    margin-top:15px;
+}
+
+.social-links a{
+    display:inline-block;
+
+    margin:5px;
+
+    padding:10px 15px;
+
+    background:rgba(255,255,255,0.15);
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    transition:0.3s;
+}
+
+.social-links a:hover{
+
+    background:cyan;
+
+    color:black;
+
+    transform:scale(1.05);
 }
